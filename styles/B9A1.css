@@ -36,3 +36,63 @@ body {
     line-height: 95px;
     margin-top: -20px;
 }
+
+.footer{
+    background: #070211;
+    display: block;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 140px;
+    color: #FFF;
+    padding: 130px 200px;
+    font-family: Inter;
+} 
+
+.footer-description{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+       
+}
+
+.footer-row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 300px;
+}
+/* .footer-Contact-info{
+    display: flex;
+} */
+
+.info a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+a img{
+    margin-top: 0;
+    margin-right: 15px;
+    padding: auto;
+}
+
+.footer-row2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0,140px;
+}
+
+.footer hr {
+    background: rgba(255, 255, 255, 0.15);;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.footer-image-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
